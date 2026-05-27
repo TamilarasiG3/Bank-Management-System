@@ -5,6 +5,7 @@ This project allows users to create accounts, perform transactions, update accou
 
 ## 🚀 Features
 
+
 ✅ Create New Account
 ✅ Update Account Details
 ✅ Deposit Money
@@ -18,9 +19,6 @@ This project allows users to create accounts, perform transactions, update accou
 ✅ Duplicate Account Prevention
 
 ## 📸 Project Preview
-======================================
-      BANK MANAGEMENT SYSTEM
-======================================
 
 1. Create New Account
 2. Update Account
