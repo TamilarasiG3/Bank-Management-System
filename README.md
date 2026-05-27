@@ -1,24 +1,127 @@
-# Bank Management System 🏦
+🏦 BANK MANAGEMENT SYSTEM
+📘 Project Documentation
+📌 1. Introduction
 
-A simple Bank Management System built using the C Programming Language with file handling and input validation.
-This project allows users to create accounts, perform transactions, update account details, and manage customer records through a console-based interface.
+The Bank Management System is a console-based application developed using the C programming language.
+It is designed to simulate basic banking operations such as account creation, transactions, and customer management using file handling techniques.
 
-## 🚀 Features
+This project demonstrates how real-world banking systems manage data using structured programming and persistent storage.
 
+🎯 2. Objective
 
-✅ Create New Account
-✅ Update Account Details
-✅ Deposit Money
-✅ Withdraw Money
-✅ Check Account Information
-✅ Delete Account
-✅ View All Customers
-✅ Password Login System
-✅ File Handling (record.dat)
-✅ Input Validation
-✅ Duplicate Account Prevention
+The main objectives of this project are:
 
-## 📸 Project Preview
+To simulate basic banking operations
+To implement file handling in C
+To manage customer records efficiently
+To validate user inputs and prevent errors
+To understand CRUD operations in real applications
+⚙️ 3. System Overview
+
+The system provides a menu-driven interface for performing banking operations.
+
+🔹 Main Functions:
+Create Account
+Update Account
+Deposit Money
+Withdraw Money
+Check Account Details
+Delete Account
+View All Customers
+🧠 4. Technologies Used
+Programming Language: C
+Concepts: Structures, Functions, Loops, Conditionals
+Storage: File Handling (record.dat)
+Compiler: GCC
+Editor: Visual Studio Code
+🏗️ 5. System Architecture
+User Input
+    ↓
+Menu Controller
+    ↓
+Validation Layer
+    ↓
+Business Logic (Bank Operations)
+    ↓
+File Handling Layer
+    ↓
+record.dat (Storage)
+📂 6. Project Structure
+BankManagementSystem/
+│
+├── bank.c          → Main source code
+├── record.dat      → Binary data file
+└── README.md       → Documentation
+🔄 7. Workflow of System
+User logs into the system
+Main menu is displayed
+User selects an operation
+Input validation is performed
+Operation is executed
+Data is saved in file (record.dat)
+Control returns to main menu
+💾 8. File Handling
+
+The system uses binary file handling to store customer data.
+
+Operations used:
+fopen() → Open file
+fwrite() → Write data
+fread() → Read data
+fseek() → Update records
+fclose() → Close file
+
+This ensures data persistence even after program termination.
+
+📌 9. Input Validation
+
+The system ensures data integrity by validating:
+
+Numeric inputs only for account & balance
+No negative balance values
+No duplicate account numbers
+Valid age and phone number checks
+🔐 10. Security Features
+Login authentication system
+Restricted access to banking operations
+Duplicate account prevention
+Controlled transaction validation
+🧾 11. Modules Description
+🧑‍💼 Account Module
+
+Handles creation, update, and deletion of accounts.
+
+💰 Transaction Module
+
+Handles deposit and withdrawal operations with validation.
+
+🔍 Inquiry Module
+
+Displays account details and customer information.
+
+🎯 12. Advantages
+Simple and easy to use
+Fast file-based storage system
+Lightweight console application
+No external database required
+Helps understand real banking logic
+🚀 13. Limitations
+No graphical user interface
+No database integration
+Limited security features
+Single-user system
+🔮 14. Future Enhancements
+GUI-based application
+Database integration (MySQL / SQLite)
+Transaction history tracking
+Role-based access (Admin/User)
+PIN authentication system
+Interest calculation module
+Online banking simulation
+📸 15. Sample Output
+======================================
+      BANK MANAGEMENT SYSTEM
+======================================
 
 1. Create New Account
 2. Update Account
@@ -27,88 +130,17 @@ This project allows users to create accounts, perform transactions, update accou
 5. Delete Account
 6. View Customers
 7. Exit
+👨‍💻 16. Author
 
-## 🛠️ Technologies Used
+Tamilarasi G
+
+Focused on:
+
 C Programming
-File Handling
-Structures
-Functions
-Input Validation
-VS Code / GCC Compiler
+System Design Fundamentals
+Backend Logic Development
+Real-world Software Simulation
+📌 17. Conclusion
 
-## 📂 Project Structure
-BankManagementSystem/
-│
-├── bank.c
-├── record.dat
-├── README.md
-
-## ⚙️ How to Run
-1️⃣ Clone Repository
-git clone <your-repository-link>
-2️⃣ Open in VS Code
-
-Open project folder in VS Code.
-
-3️⃣ Compile Program
-gcc bank.c -o bank
-4️⃣ Run Program
-Windows
-bank.exe
-Linux / Mac
-./bank
-
-## 🔐 Default Login
-Username : Admin
-Password : admin
-
-## 📌 Input Validation Added
-
-The system prevents:
-
-Characters instead of numbers
-Invalid phone numbers
-Negative balance values
-Invalid age entries
-Duplicate account numbers
-
-## 💾 File Handling
-
-Customer records are stored using:
-
-record.dat
-
-Binary file handling is used for storing account data securely.
-
-
-## 🧠 Concepts Used
-Structures
-Functions
-Loops
-Conditional Statements
-File Handling
-Validation Logic
-CRUD Operations
-
-## 🎯 Learning Outcome
-
-This project helps in understanding:
-
-Real-world C programming
-Banking system logic
-Data storage using files
-Error handling
-Menu-driven applications
-
-## 🚀 Future Improvements
-GUI Interface
-Database Integration
-Admin/User Roles
-Transaction History
-PIN Authentication
-Interest Calculation
-Online Banking Features
-
-## 👨‍💻 Author
-
-# Tamilarasi G
+The Bank Management System successfully demonstrates how banking operations can be implemented using C programming with file handling.
+It provides a strong foundation for understanding data persistence, system design, and structured programming concepts.
